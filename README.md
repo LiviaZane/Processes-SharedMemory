@@ -5,7 +5,7 @@ The womework for laboratory no.8 at Operating Systems was to implementing an obi
 - read the memory;
 - throw a coin (face 1 and 2). While face = 2,  write in memory next number (incrementing).
 
-The ideea shared memory used by many processes is :
+The shared memory used by many processes ideea is :
 -	create a shared memory zone;
 -	this (or part of this) is mapped as memory region within other processes;
 -	using a semaphore, allow each process to write in shared memory.
