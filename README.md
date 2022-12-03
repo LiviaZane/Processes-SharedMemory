@@ -11,3 +11,4 @@ The ideea shared memory used by many processes is :
 -	using a semaphore, allow each process to write in shared memory.
 
 For both Linux (POSIX) and Windows (windows.h) were used BOOST libraries (www.boost.org) to create/open/mapped shared memory.
+The semaphore was also implemented in a shared memory area.
